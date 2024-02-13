@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Utils.Detailedpage"
+    android:orientation="vertical">
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/coronaCases"
+        android:layout_width="82dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="317dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:text="SPECIFIC NEWS"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:lines="2"></TextView>
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.cardview.widget.CardView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+app:cardElevation="4dp"
+android:layout_marginTop="10dp"
+app:cardCornerRadius="6dp">
+
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/webViewLoader"/>
+
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="700dp" />
+
+
+</androidx.cardview.widget.CardView>
+
+</ScrollView>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

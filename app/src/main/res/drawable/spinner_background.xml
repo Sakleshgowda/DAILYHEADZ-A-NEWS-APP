@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/black" /> <!-- Background color -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#59D3C4" /> <!-- Border color -->
+<!--            <stroke-->
+<!--                android:width="5dp"-->
+<!--            android:color="#81D682" /> &lt;!&ndash; Border color &ndash;&gt;-->
+<!--            <corners android:radius="4dp" /> &lt;!&ndash; Rounded corners &ndash;&gt;-->
+        </shape>
+    </item>
+
+    <item
+        android:right="16dp"
+        android:width="25dp"
+        android:drawable="@drawable/spinner_arrow"
+        android:gravity="end"
+    >
+    </item>
+</layer-list>
