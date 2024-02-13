@@ -25,7 +25,7 @@ DAILYHEADZ is a news application that provides users with up-to-date news articl
 
 ## Screenshots
 
-<img src="./screenshots/img1.png" height="400px"></img>   <img src="./screenshots/img2.png" height="400px"></img>   <img src="./screenshots/img3.png" height="400px"></img>
+<img src="./screenshots/img1.png" height="400px"></img> <span>  <img src="./screenshots/img2.png" height="400px"></img>   <span>   <img src="./screenshots/img3.png" height="400px"></img>
 
 
 
