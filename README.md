@@ -23,7 +23,7 @@ DAILYHEADZ is a news application that provides users with up-to-date news articl
 - Import the project into Android Studio.
 - Run the project on an Android emulator or physical device.
 
-##Screenshots
+## Screenshots
 
 <img src="./screenshots/img1.png" height="400px"></img>   <img src="./screenshots/img2.png" height="400px"></img>   <img src="./screenshots/img3.png" height="400px"></img>
 
