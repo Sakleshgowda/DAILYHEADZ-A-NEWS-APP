@@ -19,7 +19,7 @@ DAILYHEADZ is a news application that provides users with up-to-date news articl
 - Android Studio
 
 ## Getting Started
-- Clone the repository: `git clone https://github.com/yourusername/DAILYHEADZ.git`
+- Clone the repository: `https://github.com/KiranKPoojary/DAILYHEADZ-A-NEWS-APP.git`
 - Import the project into Android Studio.
 - Run the project on an Android emulator or physical device.
 
